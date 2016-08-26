@@ -20,3 +20,5 @@ def encrypt(text, rotation):
     for char in text:
         answer += rotate_char(char, rotation)
     return answer
+
+#encrypt(text, rot)
